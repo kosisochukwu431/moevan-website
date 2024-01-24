@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Moevan</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a Moevan ">
+
+  <!-- 
+    - swiper css link
+  -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+ />
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="." type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home" class="logo-light">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">ABOUT US</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">SERVICES</a>
+          </li>
+
+          <li>
+            <a href="sigin.html" class="navbar-link">DASHBOARD</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="Moevan@gmail.com" class="contact-link">Email: Moevan@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">Customer Care: +234 8143341690</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="sigin.html" class="btn btn-primary">SIGN IN</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">One Platform 
+            <span>All Your </span> Needs.</h1>
+
+            <p class="hero-text">
+              We provide you with instant airtime recharge, cable tv subscription  (dstv, gotv, and more), electricity bill payment and much more.
+               
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="sigin.html" class="btn btn-primary">SIGN UP</a>
+
+              <a href="sigin.html" class="btn btn-outline">SIGN IN</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./istockphoto-1307840970-612x612.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./v.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label"><span>Why Choose Us?</span></p>
+
+            <p class="section-text">
+              Become An Agent
+Become part of our exceptional entrepreneur network by partnering with Moevan. Integrate the Moevan 'easy-payments' experience into your network, earning commissions for each transaction.
+Our referral program provides top incentives, fostering entrepreneurial and managerial skill acquisition, promoting growth and development, empowering interested individuals, students on higher learning campuses and youths in diaspora, and advancing technology through ICT tools in society.
+            </p>
+
+                      </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label"><span>Our Services</span></p>
+
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Data Plan Subscription</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Airtime Top-up</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Cable TV Subscription</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Check
+                  Result</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+              </div>
+
+            </li>
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Bills 
+Payment</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+              </div>
+              
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Bills Payment</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+              </div>
+              
+            </li>
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Bulk SMS
+                  Services</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./uu.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label"><span>Become An Agent</span></p>
+
+            
+            <p class="section-text">
+              Become An Agent Become part of our exceptional entrepreneur network by partnering with Moevan. Integrate the Moevan 'easy-payments' experience into your network, earning commissions for each transaction. Our referral program provides top incentives, fostering entrepreneurial and managerial skill acquisition, promoting growth and development, empowering interested individuals, students on higher learning campuses and youths in diaspora, and advancing technology through ICT tools in society.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      
+      <!-- 
+        - #TESTIMONY
+      -->
+
+      <section class="testimony" id="testimony">
+        <h1 class="heading">TESTIMONY</h1>
+        
+        <div class="swiper testimony-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus sit iusto temporibus suscipit provident quis consectetur, eaque recusandae! Earum et maiores exercitationem facilis e
+              os obcaecati vitae aliquid veritatis beatae!</p>
+              <div class="user">
+                <img src="./12.png" alt="">
+                <div class="user-info">
+                  <h3>Emeka</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus sit iusto temporibus suscipit provident quis consectetur, eaque recusandae! Earum et maiores exercitationem facilis e
+              os obcaecati vitae aliquid veritatis beatae!</p>
+              <div class="user">
+                <img src="./13.png" alt="">
+                <div class="user-info">
+                  <h3>Ebele</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus sit iusto temporibus suscipit provident quis consectetur, eaque recusandae! Earum et maiores exercitationem facilis e
+              os obcaecati vitae aliquid veritatis beatae!</p>
+              <div class="user">
+                <img src="./14.png" alt="">
+                <div class="user-info">
+                  <h3>Jane Anderson</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus sit iusto temporibus suscipit provident quis consectetur, eaque recusandae! Earum et maiores exercitationem facilis e
+              os obcaecati vitae aliquid veritatis beatae!</p>
+              <div class="user">
+                <img src="./15.png" alt="">
+                <div class="user-info">
+                  <h3>Goodness  Anita</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus sit iusto temporibus suscipit provident quis consectetur, eaque recusandae! Earum et maiores exercitationem facilis e
+              os obcaecati vitae aliquid veritatis beatae!</p>
+              <div class="user">
+                <img src="./16.png" alt="">
+                <div class="user-info">
+                  <h3>David Eze</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus sit iusto temporibus suscipit provident quis consectetur, eaque recusandae! Earum et maiores exercitationem facilis e
+              os obcaecati vitae aliquid veritatis beatae!</p>
+              <div class="user">
+                <img src="./17.png" alt="">
+                <div class="user-info">
+                  <h3>Ethan Jew</h3>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #PRICING
+      -->
+     
+       
+
+      <section class="pricing" >
+        
+        <div class="card-wrapper-1">
+          
+          <!--Card header
+          -->
+          <div class="card-header-1">
+            <img src="./mtn.svg">
+            <h2>MTN</h2>
+          </div>
+          <!--Card details-->
+          <div class="card-detail-1">
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          </div>
+          
+          <!--Order button-->
+          <button class="card-button-1" href="sigin.html">ORDER NOW</button>
+        </div>
+
+
+        <div class="card-wrapper2">
+          <!--Card header
+          -->
+          <div class="card-header2">
+            <img src="./airtel.svg">
+            <h2>Airtel</h2>
+          </div>
+          <!--Card details-->
+          <div class="card-detail2">
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          </div>
+          
+          <!--Order button-->
+          <button class="card-button2" href="sigin.html">ORDER NOW</button>
+
+        </div>
+
+
+        <div class="card-wrapper3">
+          <!--Card header
+          -->
+          <div class="card-header3">
+            <img src="./glo.svg">
+            <h2>Glo</h2>
+          </div>
+          <!--Card details-->
+          <div class="card-detail3">
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          </div>
+          
+          <!--Order button-->
+          <button class="card-button3" href="sigin.html">ORDER NOW</button>
+
+        </div>
+
+        <div class="card-wrapper4">
+          <!--Card header
+          -->
+          <div class="card-header4">
+            <img src="./9mobile.svg">
+            <h2>9-Mobile</h2>
+          </div>
+          <!--Card details-->
+          <div class="card-detail4">
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          <p>500 MB        &ensp;   N150     &ensp;           30days</p>
+          </div>
+          
+          <!--Order button-->
+          <button class="card-button4" href="sigin.html">ORDER NOW</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+      
+
+
+  
+
+
+      
+
+
+
+
+
+
+
+
+
+      
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+          
+          <h2 class="h2 section-title">
+            Join us and get the best data and airtime services</h2>
+
+          <a href="#" class="btn btn-primary">Try it For Free</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <figure class="feature-banner">
+    <img src="./v.png" width="800" height="531" loading="lazy" alt="feature banner"
+      class="w-100">
+  </figure>
+
+  <section class="api" aria-label="call to action"
+
+
+
+
+  
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./logo.svg" width="74" height="24" alt="Moevan website">
+          <p class="footer-text"><h4>We offer instant recharge of<br>Airtime, Databundle<br>CableTV(DStv, GOtv & more), Electricity Bill<br>Payment and more...</h4>
+          </p>
+        </a>
+
+        <p class="footer-text">
+          &copy; 2022 moevan website. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Contact Information</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            2, Nigeri
+          </address>
+        </li>
+
+        <li>
+          <a href="Moevan@gmail.com" class="footer-link">Email: Moevan@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+234 8143341690" class="footer-link">Customer Care: +234 8143341690</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Useful Links</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Service</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Pricing</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Login</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - swiper js link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
